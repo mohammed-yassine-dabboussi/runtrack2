@@ -1,14 +1,7 @@
-<head>
-    <meta charset="UTF-8">
-    <title>jour 2 job04</title>
-</head>
-
-<html>
-<body>
-
-    <?php 
-        //Parcourir les nombres entre 0 et 00 compris 
-        for ($i = 1; $i <= 100; $i++) {
+<?php 
+    //Mohammed Yassine Dabboussi Runtrack 2 Jour 2 Job 04
+        
+        for ($i = 1; $i <= 100; $i++) {//Parcourir les nombres entre 0 et 00 compris 
             
             if ($i %3 == 0 && $i % 5 == 0 ) {
                 echo "FizzBuzz";
@@ -25,7 +18,4 @@
             }
             
         }
-    ?>
-    
-</body>
-</html>
+?>
