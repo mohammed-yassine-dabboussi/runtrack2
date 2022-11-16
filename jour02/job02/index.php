@@ -1,6 +1,7 @@
 <?php 
-    //Parcourir les nombres entre 0 et 1337 compris 
-    for ($i = 0; $i <= 1337; $i++) {
+    //Mohammed Yassine Dabboussi Runtrack 2 Jour 2 Job 01
+
+    for ($i = 0; $i <= 1337; $i++) { //Parcourir les nombres entre 0 et 1337 compris 
             
         switch ($i) {
             case 26:
