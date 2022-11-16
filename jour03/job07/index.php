@@ -1,8 +1,8 @@
 <?php
-    mb_internal_encoding('UTF-8');
+    //Mohammed Yassine Dabboussi Runtrack 2 jour 03 job 07
+
     $str = "Certaines choses changent, et d'autres ne changeront jamais.";
     
-
     // Méthode 1
     echo "Methode 1 <br/>";
     for ($i = 1 ; isset($str[$i]); $i++){
@@ -17,7 +17,7 @@
     for ($i = 1 ; isset($str[$i]); $i++){
         $x ++ ;
     }
-    
+
     for ($i = 1 ; isset($str[$i]); $i++){
         $str2 = $str2 . $str[$i];
     }
