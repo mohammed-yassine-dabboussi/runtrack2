@@ -1,6 +1,5 @@
-
 <?php
-    mb_internal_encoding('UTF-8');
+    //Mohammed Yassine Dabboussi Runtrack 2 jour 03 job 06
     $str = "Les choses que l'on possède finissent par nous posséder";
     $str2 = "";
 
