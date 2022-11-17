@@ -41,6 +41,7 @@
     foreach($_POST as $argument => $value){
         if ($value != ""){
             $nb_arg ++ ;
+            
         }
     }
     
