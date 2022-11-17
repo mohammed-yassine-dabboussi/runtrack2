@@ -42,8 +42,7 @@
                 <th>Valeur</th>
             </tr>
            
-            <tr>
-                <td>
+           
                 <?php 
                         foreach($_GET as $args => $value){
                             $long=0;
@@ -59,8 +58,7 @@
             
                         }
                     ?>  
-                </td>
-            </tr>
+             
         </table>
 
     </body>
