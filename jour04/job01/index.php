@@ -10,15 +10,36 @@
 <body>
     
     <form action="" method="get">
-    <p>Votre nom : <input type="text" name="nom" /></p>
-    <p>Votre prenom : <input type="text" name="prenom" /></p>
-    <p>Votre âge : <input type="text" name="age" /></p>
-    <p><input type="submit" value="OK"></p>
+        <table >
+            <tr>
+                <td>Votre nom :   </td>
+                <td><input type="text" name="nom" /></td>
+            </tr>
+            <tr>
+                <td>   </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Votre prenom :</td>
+                <td><input type="text" name="prenom" /></td>
+            </tr>
+            <tr>
+                <td>Votre âge :</td>
+                <td><input type="text" name="age" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="OK"></td>
+                
+            </tr>
+    </table>
     </form>
 
     <?php
     $nb_arg = 0 ;
-
+    $_GET["prenom"]="";
+    $_GET["nom"]="";
+    $_GET["age"]="";
     $formulaires = [
         "prenom" => $_GET["prenom"],
         "nom" => $_GET["nom"],
