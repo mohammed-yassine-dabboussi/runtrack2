@@ -49,6 +49,7 @@
                             for($i = 0; isset($value[$i]); $i++){
                                 $long++;
                             }
+                            
                             if ($long>0){ 
                             echo "<tr>";
                             echo "<td>".$args."</td>";
