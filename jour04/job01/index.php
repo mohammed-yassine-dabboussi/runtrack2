@@ -37,18 +37,8 @@
 
     <?php
     $nb_arg = 0 ;
-    $_GET["prenom"]="";
-    $_GET["nom"]="";
-    $_GET["age"]="";
-    $formulaires = [
-        "prenom" => $_GET["prenom"],
-        "nom" => $_GET["nom"],
-        "age" => $_GET["age"],
-    ];
-
-    //var_dump ($formulaires);
-
-    foreach($formulaires as $value){
+    
+    foreach($_GET as $argument => $value){
         if ($value != ""){
             $nb_arg ++ ;
         }
