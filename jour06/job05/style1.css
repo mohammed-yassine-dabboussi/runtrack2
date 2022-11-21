@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(247, 255, 142);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.formulaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: purple;
+    color: #ffffff;
+}
+
+form > select {
+    background-color: #008d1f;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  form > input {
+    background-color: #ffe600;
+    color: #008d1f;
+    font-weight: bolder;
+  }
