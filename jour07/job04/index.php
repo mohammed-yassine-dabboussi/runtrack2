@@ -21,7 +21,7 @@
                 </td>
                 <td>b= </td>
                 <td><input type="text" name="b" /></td>
-                <td><input type="submit" value="OK"></td>
+                <td><input type="submit" value="="></td>
                 
             </tr>
     </table>
