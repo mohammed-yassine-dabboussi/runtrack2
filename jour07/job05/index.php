@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>jour 7 job 5</title>
+        <title>jour 7 job 5 </title>
     </head>
 <body>
     
@@ -38,7 +38,6 @@
                 <option value="x">x</option>
                 <option value="y">y</option>
                 <option value="z">z</option>
-
                 </select>
                 </td>
                 <td><input type="submit" value="OK"></td>
