@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>jour 7 job 6</title>
+        <title>jour 7 job 6 </title>
     </head>
 <body>
     
