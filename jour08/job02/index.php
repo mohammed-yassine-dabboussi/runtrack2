@@ -7,7 +7,6 @@
     }
 ?>
 
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -17,7 +16,6 @@
     <title>jour 8 job 2</title>
 </head>
 <body>
-
 
     <form action="" method="post">
         <br>
@@ -29,16 +27,11 @@
     </form>
 
     <?php
-
     if (isset($_POST['reset'])) {
         setcookie('nbvisites', '1', time() -3600);
-        setcookie('nbvisites', '1', time() + 365*24*3600);
+        setcookie('nbvisites', '1', time() + 180*24*3600);
         $_COOKIE['nbvisites'] = 1;
     }
-
-    ?>
-
-    <?php
     echo "Vous avez visité cette page " . $_COOKIE['nbvisites'] . " fois";
     ?>
 </body>
