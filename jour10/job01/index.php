@@ -30,7 +30,7 @@ $request = $mysqli -> query("select * from etudiants");
 </head>
 
 <body>
-
+    <h1> Jour 10 Job 01 </h1>
     <table border : solid>
             <thead>
                 <tr>
