@@ -32,6 +32,7 @@ $request = $mysqli -> query("SELECT `prenom`, `nom`, `naissance` FROM `etudiants
 <body>
     <h1> Jour 10 Job 03 </h1>
     <table border : solid>
+        
             <thead>
                 <tr>
                     <th>Prénom</th>
